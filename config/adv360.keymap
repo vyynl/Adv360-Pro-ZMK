@@ -104,7 +104,7 @@
 &kp TAB           &kp Q           &kp W           &kp E         &kp R        &kp T   &none                                                    &none      &kp Y   &kp U        &kp I         &kp O            &kp P               &kp BSLH
 &hm ESC LEFT_ALT  &hm A LEFT_WIN  &hm S LEFT_ALT  &hm D LSHIFT  &hm F LCTRL  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm J RCTRL  &hm K RSHIFT  &hm L RIGHT_ALT  &hm SEMI RIGHT_WIN  &hm SQT RIGHT_ALT
 &kp LSHFT         &hm Z LCTRL     &kp X           &kp C         &kp V        &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M        &kp COMMA     &kp DOT          &hm SLASH RCTRL     &kp RSHFT
-&mo 1             &kp GRAVE       &kp CAPSLOCK    &kp LEFT      &kp RIGHT            &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP       &kp DOWN      &kp LBKT         &kp RBKT            &mo 1
+&tog 1            &kp GRAVE       &kp CAPSLOCK    &kp LEFT      &kp RIGHT            &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP       &kp DOWN      &kp LBKT         &kp RBKT            &tog 1
             >;
         };
 
