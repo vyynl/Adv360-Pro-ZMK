@@ -115,11 +115,11 @@
 
         layer_keypad {
             bindings = <
-&kp F1     &kp F2     &kp F3    &kp F4    &kp N4     &kp F5  &trans                                                   &mo 0           &kp F6     &kp F7  &kp F8  &kp F9      &kp F10    &kp F11
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &macro_kinesis  &kp UP     &kp N7  &kp N8  &kp N9      &kp STAR   &kp F12
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp ENTER       &kp DOWN   &kp N4  &kp N5  &kp N6      &kp PLUS   &kp SQT
-&kp LSHFT  &kp EQUAL  &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                             &kp MINUS  &kp N1  &kp N2  &kp N3      &kp SLASH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                  &kp N0  &kp N0  &kp PERIOD  &kp EQUAL  &mo 2
+&kp F1     &kp F2          &kp F3  &kp F4    &kp N4     &kp F5  &trans                                                   &mo 0           &kp F6     &kp F7  &kp F8  &kp F9      &kp F10    &kp F11
+&kp TAB    &kp I           &kp Q   &kp W     &kp E      &kp R   &kp T                                                    &macro_kinesis  &kp UP     &kp N7  &kp N8  &kp N9      &kp STAR   &kp F12
+&kp ESC    &kp LEFT_SHIFT  &kp A   &kp S     &kp D      &kp F   &kp G     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp ENTER       &kp DOWN   &kp N4  &kp N5  &kp N6      &kp PLUS   &kp SQT
+&kp LSHFT  &kp EQUAL       &kp Z   &kp X     &kp C      &kp V                        &kp HOME      &kp PG_UP                             &kp MINUS  &kp N1  &kp N2  &kp N3      &kp SLASH  &kp RSHFT
+&mo 2      &kp GRAVE       &kp B   &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                  &kp N0  &kp N0  &kp PERIOD  &kp EQUAL  &mo 2
             >;
         };
 
