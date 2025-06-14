@@ -37,36 +37,43 @@
         hr_tab {
             bindings = <&kp TAB>;
             key-positions = <31 30>;
+            layers = <0>;
         };
 
         num_layer {
             bindings = <&mo 1>;
             key-positions = <32 31>;
+            layers = <0>;
         };
 
         go_new_var {
             bindings = <&go_new_var>;
             key-positions = <41 42>;
+            layers = <0>;
         };
 
         bracket_block {
             bindings = <&bracket_block>;
             key-positions = <42 43>;
+            layers = <0>;
         };
 
         brace_block {
             bindings = <&brace_block>;
             key-positions = <41 42 43>;
+            layers = <0>;
         };
 
         parenth_block {
             bindings = <&parenth_block>;
             key-positions = <41 43>;
+            layers = <0>;
         };
 
         nav_layer {
             bindings = <&mo 2>;
             key-positions = <30 32>;
+            layers = <0>;
         };
     };
 
