@@ -43,7 +43,7 @@
         num_layer {
             bindings = <&tog 1>;
             key-positions = <32 31>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         go_new_var {
