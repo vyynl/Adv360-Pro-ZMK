@@ -122,7 +122,7 @@
 &kp TAB              &kp Q               &kp W           &kp E             &kp R        &kp T   &kp LA(TAB)                                                 &kp RA(TAB)  &kp Y   &kp U        &kp I         &kp O            &kp P                    &kp BSLH
 &hm LEFT_ALT ESCAPE  &hm RA(LEFT_WIN) A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G   &none        &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none        &kp H   &hm RCTRL J  &hm RSHIFT K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMICOLON  &hm RIGHT_ALT SQT
 &kp LSHFT            &hm LCTRL Z         &kp X           &kp C             &kp V        &kp B                           &kp HOME      &kp PG_UP                          &kp N   &kp M        &kp COMMA     &kp DOT          &hm RIGHT_CONTROL SLASH  &kp RSHFT
-&tog 1               &kp GRAVE           &kp CAPSLOCK    &kp LEFT          &kp RIGHT            &kp BSPC     &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE            &kp UP       &kp DOWN      &kp LBKT         &kp RBKT                 &tog 1
+&tog 1               &kp GRAVE           &kp CAPSLOCK    &kp LEFT          &kp RIGHT            &kp BSPC     &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE            &kp UP       &kp DOWN      &kp LBKT         &kp RBKT                 &to 3
             >;
         };
 
@@ -146,13 +146,13 @@
             >;
         };
 
-        layer_3 {
+        Gaems {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &kp N6                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp I                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp L      &kp LCTRL  &kp LALT      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                         &kp HOME      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &kp N6                                                    &trans     &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp I                                                     &trans     &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp L      &kp LCTRL  &kp LALT      &kp LGUI   &kp LCTRL  &trans     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                         &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp J      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &kp RET    &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &to 0
             >;
         };
     };
