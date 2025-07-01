@@ -41,7 +41,7 @@
         };
 
         num_layer {
-            bindings = <&tog 1>;
+            bindings = <&to 1>;
             key-positions = <32 31>;
             layers = <0>;
         };
@@ -77,7 +77,7 @@
         };
 
         default_layer {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <31 32>;
             layers = <1 2>;
         };
@@ -143,6 +143,16 @@
 &bt BT_CLR  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &none
 &none       &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none           &none           &none         &none      &none  &none
 &none       &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                         &bl BL_INC      &bl BL_DEC    &none      &none  &none
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &kp N6                                              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp I                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp L      &kp LCTRL  &kp LALT      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                         &kp HOME      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
