@@ -37,7 +37,7 @@
         hr_tab {
             bindings = <&kp TAB>;
             key-positions = <31 30>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         num_layer {
