@@ -36,49 +36,55 @@
         hr_tab {
             bindings = <&kp TAB>;
             key-positions = <31 30>;
-            layers = <0 1>;
+            layers = <0 1 4>;
         };
 
         num_layer {
             bindings = <&to 1>;
             key-positions = <32 31>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         go_new_var {
             bindings = <&go_new_var>;
             key-positions = <41 42>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         bracket_block {
             bindings = <&bracket_block>;
             key-positions = <42 43>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         brace_block {
             bindings = <&brace_block>;
             key-positions = <41 42 43>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         parenth_block {
             bindings = <&parenth_block>;
             key-positions = <41 43>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         nav_layer {
             bindings = <&mo 2>;
             key-positions = <30 32>;
-            layers = <0>;
+            layers = <0 4>;
         };
 
         default_layer {
             bindings = <&to 0>;
             key-positions = <31 32>;
             layers = <1 2>;
+        };
+
+        to_colemak {
+            bindings = <&tog 4>;
+            key-positions = <32 31 30>;
+            layers = <0 2 4>;
         };
     };
 
@@ -117,11 +123,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL            &kp N1              &kp N2          &kp N3            &kp N4       &kp N5  &tog 1                                                      &mo 2        &kp N6  &kp N7       &kp N8        &kp N9           &kp N0                   &kp MINUS
-&kp TAB              &kp Q               &kp W           &kp E             &kp R        &kp T   &kp LA(TAB)                                                 &kp RA(TAB)  &kp Y   &kp U        &kp I         &kp O            &kp P                    &kp BSLH
-&hm LEFT_ALT ESCAPE  &hm RA(LEFT_WIN) A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G   &none        &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none        &kp H   &hm RCTRL J  &hm RSHIFT K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMICOLON  &hm RIGHT_ALT SQT
-&kp LSHFT            &hm LCTRL Z         &kp X           &kp C             &kp V        &kp B                           &kp HOME      &kp PG_UP                          &kp N   &kp M        &kp COMMA     &kp DOT          &hm RIGHT_CONTROL SLASH  &kp RSHFT
-&tog 1               &kp GRAVE           &kp CAPSLOCK    &kp LEFT          &kp RIGHT            &kp BSPC     &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE            &kp UP       &kp DOWN      &kp LBKT         &kp RBKT                 &to 3
+&kp EQUAL            &kp N1          &kp N2          &kp N3            &kp N4       &kp N5  &tog 1                                                      &mo 2        &kp N6  &kp N7       &kp N8        &kp N9           &kp N0                   &kp MINUS
+&kp TAB              &kp Q           &kp W           &kp E             &kp R        &kp T   &kp LA(TAB)                                                 &kp RA(TAB)  &kp Y   &kp U        &kp I         &kp O            &kp P                    &kp BSLH
+&hm LEFT_ALT ESCAPE  &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F  &kp G   &none        &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none        &kp H   &hm RCTRL J  &hm RSHIFT K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMICOLON  &hm RIGHT_ALT SQT
+&kp LSHFT            &hm LCTRL Z     &kp X           &kp C             &kp V        &kp B                           &kp HOME      &kp PG_UP                          &kp N   &kp M        &kp COMMA     &kp DOT          &hm RIGHT_CONTROL SLASH  &kp RSHFT
+&tog 1               &kp GRAVE       &kp CAPSLOCK    &kp LEFT          &kp RIGHT            &kp BSPC     &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE            &kp UP       &kp DOWN      &kp LBKT         &kp RBKT                 &to 3
             >;
         };
 
@@ -152,6 +158,16 @@
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp L      &kp LCTRL  &kp LALT      &kp LGUI   &kp LCTRL  &trans     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                         &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &kp J      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &kp RET    &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &to 0
+            >;
+        };
+
+        colemak_testing {
+            bindings = <
+&kp EQUAL  &trans           &trans      &trans        &trans       &trans  &trans                                      &trans  &trans  &trans       &trans        &trans            &trans             &kp MINUS
+&trans     &kp Q            &kp W       &kp F         &kp P        &kp G   &trans                                      &trans  &kp J   &kp L        &kp U         &kp Y             &kp SEMI           &kp BACKSLASH
+&trans     &mt LEFT_META A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &mt LCTRL N  &mt RSHIFT E  &mt RIGHT_ALT I   &mt RMETA O        &kp SQT
+&trans     &mt LCTRL Z      &kp X       &kp C         &kp V        &kp B                   &trans      &trans                  &kp K   &kp M        &kp COMMA     &kp DOT           &mt RCTRL FSLH     &trans
+&trans     &trans           &trans      &trans        &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
             >;
         };
     };
