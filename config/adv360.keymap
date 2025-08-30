@@ -163,11 +163,11 @@
 
         colemak_testing {
             bindings = <
-&kp EQUAL  &trans           &trans      &trans        &trans       &trans  &trans                                      &trans  &trans  &trans       &trans        &trans            &trans             &kp MINUS
-&trans     &kp Q            &kp W       &kp F         &kp P        &kp G   &trans                                      &trans  &kp J   &kp L        &kp U         &kp Y             &kp SEMI           &kp BACKSLASH
-&trans     &mt LEFT_META A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &mt LCTRL N  &mt RSHIFT E  &mt RIGHT_ALT I   &mt RMETA O        &kp SQT
-&trans     &mt LCTRL Z      &kp X       &kp C         &kp V        &kp B                   &trans      &trans                  &kp K   &kp M        &kp COMMA     &kp DOT           &mt RCTRL FSLH     &trans
-&trans     &trans           &trans      &trans        &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp EQUAL  &trans       &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans            &trans             &kp MINUS
+&trans     &kp Q        &kp W   &kp F   &kp P   &kp G   &trans                                      &trans  &kp J   &kp L   &kp U      &kp Y             &kp SEMI           &kp BACKSLASH
+&trans     &kp A        &kp R   &kp R   &kp T   &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &kp N   &kp E      &kp I             &kp O              &kp SQT
+&trans     &mt LCTRL Z  &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp K   &kp M   &kp COMMA  &kp DOT           &mt RCTRL FSLH     &trans
+&trans     &trans       &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
             >;
         };
     };
