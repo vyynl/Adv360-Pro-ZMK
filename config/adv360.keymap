@@ -179,11 +179,11 @@
 
         Colemak {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans    &trans    &trans
-&trans  &kp Q   &kp W   &kp F   &kp P   &kp G   &trans                                      &trans  &kp J   &kp L   &kp U      &kp Y     &kp SEMI  &kp BSLH
-&trans  &kp A   &kp R   &kp S   &kp T   &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &kp N   &kp E      &kp I     &kp O     &kp APOS
-&trans  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp K   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &trans
+&trans  &trans              &trans          &trans            &trans              &trans  &trans                                      &trans  &trans  &trans               &trans             &trans           &trans                  &trans
+&trans  &kp Q               &kp W           &kp F             &kp P               &kp G   &trans                                      &trans  &kp J   &kp L                &kp U              &kp Y            &kp SEMI                &kp BSLH
+&trans  &hm LEFT_META A     &hm LEFT_ALT R  &hm LEFT_SHIFT S  &hm LEFT_CONTROL T  &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &hm RIGHT_CONTROL N  &hm RIGHT_SHIFT E  &hm RIGHT_ALT I  &hm RIGHT_GUI O         &kp APOS
+&trans  &hm LEFT_CONTROL Z  &kp X           &kp C             &kp V               &kp B                   &trans      &trans                  &kp K   &kp M                &kp COMMA          &kp DOT          &hm RIGHT_CONTROL FSLH  &trans
+&trans  &trans              &trans          &kp LEFT_ARROW    &kp RIGHT_ARROW             &trans  &trans  &trans      &trans  &trans  &trans          &kp UP               &kp DOWN           &kp LBKT         &kp RBKT                &trans
             >;
         };
     };
