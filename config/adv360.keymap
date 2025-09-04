@@ -89,7 +89,7 @@
 
         to_colemak {
             bindings = <&tog 5>;
-            key-positions = <32 31 30 41 42 43>;
+            key-positions = <30 31 32>;
             layers = <0 5>;
         };
     };
