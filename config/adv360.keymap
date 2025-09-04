@@ -86,6 +86,12 @@
             key-positions = <32 31 30>;
             layers = <3>;
         };
+
+        to_colemak {
+            bindings = <&tog 5>;
+            key-positions = <32 31 30 41 42 43>;
+            layers = <0 5>;
+        };
     };
 
     macros {
@@ -168,6 +174,16 @@
 &kp ESCAPE  &kp F1        &kp F2        &hm LSHIFT F3  &hm RCTRL F4  &trans  &trans     &trans         &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans         &trans        &trans                            &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans         &trans                &kp SPACE  &kp BACKSPACE  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Colemak {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans    &trans    &trans
+&trans  &kp Q   &kp W   &kp F   &kp P   &kp G   &trans                                      &trans  &kp J   &kp L   &kp U      &kp Y     &kp SEMI  &kp BSLH
+&trans  &kp A   &kp R   &kp S   &kp T   &kp D   &trans  &trans  &trans      &trans  &trans  &trans  &kp H   &kp N   &kp E      &kp I     &kp O     &kp APOS
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp K   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &trans
             >;
         };
     };
