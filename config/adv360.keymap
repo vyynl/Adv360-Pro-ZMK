@@ -87,10 +87,16 @@
             layers = <4>;
         };
 
-        to_colemak {
+        to_qwerty {
             bindings = <&tog 1>;
             key-positions = <30 31 32>;
             layers = <0>;
+        };
+
+        to_colemak {
+            bindings = <&tog 0>;
+            key-positions = <31 32 30>;
+            layers = <1>;
         };
     };
 
