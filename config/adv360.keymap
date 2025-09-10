@@ -78,7 +78,7 @@
         default_layer {
             bindings = <&to 0>;
             key-positions = <31 32>;
-            layers = <2 3>;
+            layers = <2 3 1>;
         };
 
         to_osrs {
@@ -91,12 +91,6 @@
             bindings = <&tog 1>;
             key-positions = <30 31 32>;
             layers = <0>;
-        };
-
-        to_colemak {
-            bindings = <&tog 0>;
-            key-positions = <31 32 30>;
-            layers = <1>;
         };
     };
 
