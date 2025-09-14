@@ -33,7 +33,7 @@
     combos {
         compatible = "zmk,combos";
 
-        hr_tab {
+        HR-R_Tab {
             bindings = <&kp TAB>;
             key-positions = <31 30>;
             layers = <1 2 0>;
@@ -43,30 +43,6 @@
             bindings = <&to 2>;
             key-positions = <32 31>;
             layers = <0>;
-        };
-
-        go_new_var {
-            bindings = <&go_new_var>;
-            key-positions = <41 42>;
-            layers = <1 0>;
-        };
-
-        bracket_block {
-            bindings = <&bracket_block>;
-            key-positions = <42 43>;
-            layers = <1>;
-        };
-
-        brace_block {
-            bindings = <&brace_block>;
-            key-positions = <41 42 43>;
-            layers = <1>;
-        };
-
-        parenth_block {
-            bindings = <&parenth_block>;
-            key-positions = <41 43>;
-            layers = <1>;
         };
 
         nav_layer {
@@ -91,6 +67,12 @@
             bindings = <&tog 1>;
             key-positions = <30 31 32>;
             layers = <0>;
+        };
+
+        HR-L_Tab {
+            bindings = <&kp TAB>;
+            key-positions = <42 43>;
+            layers = <1 2 0>;
         };
     };
 
@@ -173,7 +155,7 @@
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &kp I                                                     &trans     &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &kp L      &kp LCTRL  &kp LALT      &kp LGUI   &kp LCTRL  &trans     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                         &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp J      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &kp RET    &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &to 1
+&kp J      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp END       &kp RET    &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &to 0
             >;
         };
 
