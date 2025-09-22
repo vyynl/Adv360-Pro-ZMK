@@ -120,11 +120,11 @@
 
         Colemak {
             bindings = <
-&kp EQUAL       &kp NUMBER_1        &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4        &kp NUMBER_5  &tog 1                                                              &mo 3        &kp NUMBER_6  &kp NUMBER_7         &kp NUMBER_8       &kp NUMBER_9     &kp NUMBER_0            &kp MINUS
-&kp TAB         &kp Q               &kp W           &kp F             &kp P               &kp G         &kp LA(TAB)                                                         &kp RA(TAB)  &kp J         &kp L                &kp U              &kp Y            &kp SEMI                &kp BSLH
-&kp ESCAPE      &hm LEFT_META A     &hm LEFT_ALT R  &hm LEFT_SHIFT S  &hm LEFT_CONTROL T  &kp D         &field_transfer  &kp LCTRL  &kp LEFT_ALT      &kp LGUI   &kp RCTRL  &none        &kp H         &hm RIGHT_CONTROL N  &hm RIGHT_SHIFT E  &hm RIGHT_ALT I  &hm LGUI O              &kp APOS
-&kp LEFT_SHIFT  &hm LEFT_CONTROL Z  &kp X           &kp C             &kp V               &kp B                                     &kp HOME          &kp PG_UP                          &kp K         &kp M                &kp COMMA          &kp DOT          &hm RIGHT_CONTROL FSLH  &kp RSHIFT
-&tog 2          &kp GRAVE           &kp CAPSLOCK    &kp LEFT_ARROW    &kp RIGHT_ARROW                   &kp BACKSPACE    &kp DEL    &kp END           &kp PG_DN  &kp ENTER  &kp SPACE                  &kp UP               &kp DOWN           &kp LBKT         &kp RBKT                &tog 4
+&kp EQUAL       &kp NUMBER_1        &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4        &kp NUMBER_5  &tog 1                                                              &mo 3            &kp NUMBER_6  &kp NUMBER_7         &kp NUMBER_8       &kp NUMBER_9     &kp NUMBER_0            &kp MINUS
+&kp TAB         &kp Q               &kp W           &kp F             &kp P               &kp G         &kp LA(TAB)                                                         &kp RA(TAB)      &kp J         &kp L                &kp U              &kp Y            &kp SEMI                &kp BSLH
+&kp ESCAPE      &hm LEFT_META A     &hm LEFT_ALT R  &hm LEFT_SHIFT S  &hm LEFT_CONTROL T  &kp D         &field_transfer  &kp LCTRL  &kp LEFT_ALT      &kp LGUI   &kp RCTRL  &field_transfer  &kp H         &hm RIGHT_CONTROL N  &hm RIGHT_SHIFT E  &hm RIGHT_ALT I  &hm LGUI O              &kp APOS
+&kp LEFT_SHIFT  &hm LEFT_CONTROL Z  &kp X           &kp C             &kp V               &kp B                                     &kp HOME          &kp PG_UP                              &kp K         &kp M                &kp COMMA          &kp DOT          &hm RIGHT_CONTROL FSLH  &kp RSHIFT
+&tog 2          &kp GRAVE           &kp CAPSLOCK    &kp LEFT_ARROW    &kp RIGHT_ARROW                   &kp BACKSPACE    &kp DEL    &kp END           &kp PG_DN  &kp ENTER  &kp SPACE                      &kp UP               &kp DOWN           &kp LBKT         &kp RBKT                &tog 4
             >;
         };
 
